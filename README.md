@@ -111,7 +111,7 @@ Crea un nuevo documento HTML con el título "Introducción a Bootstrap"
 
 ## Tecnologias
 Lista de tecnologias utilizadas dentro del proyecto:
-* [HTML5](https://lenguajehtml.com/):  
+* [HTML5](https://lenguajehtml.com/)  
 * [Bootstrap](https://getbootstrap.com/): 5.3.0
 ## Instalacion
 Para utilizar el proyecto. 
