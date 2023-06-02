@@ -1,0 +1,17 @@
+/* 3. Utilizamos el pseudo-elemento "before" para agregar texto al boton */
+.boton__pseudo-elemento::before {
+    content: 'Pasa por encima';
+}
+/* 4. Especificamos que cuando pasemos el mouse por encima se elimine el contenido antes creado con el pseudo-elemento "before" */
+.boton__pseudo-elemento:hover.boton__pseudo-elemento::before {
+    content: none;
+}
+/* 5. Usamos la pseudo-clase "hover" para cambiar el estilo del botón segun lo solicitado */
+.boton__pseudo-elemento:hover {
+    background-color: green;
+    color: white;
+}
+/* 6. Al igual que con "before", especificamos que cuando pasemos el mouse por encima se agregara el texto "Hecho" al botón utilizando la pseudo-clase "after" */
+.boton__pseudo-elemento:hover.boton__pseudo-elemento::after {
+    content: "¡Hecho!";
+}

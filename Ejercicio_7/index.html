@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+        <link rel="stylesheet" href="css/darStyle.css">
+    </head>
+    <body>
+       <div class="login__container">
+           <h2 class="login__title">Registrate en los formularios</h2>
+           <!-- Sección para los botones -->
+           <div class="login__buttons">
+                <button class="login__buttons-Google">
+                    <picture>
+                        <img src="https://w7.pngwing.com/pngs/326/85/png-transparent-google-logo-google-text-trademark-logo.png" alt="Logo de Google">
+                    </picture>
+                    <span>Acceder con Google</span>
+                </button>
+                <button class="login__buttons-Twitter">
+                    <picture>
+                        <img src="https://w7.pngwing.com/pngs/919/551/png-transparent-logo-file-format-graphics-logo-twitter-hd-angle-logo-monochrome.png" alt="Logo Twitter">
+                    </picture>
+                </button>
+            </div>
+            <!-- Sección divisoria entre el formulario y los botones -->
+            <div class="login__separator">
+                <hr>
+                <span>O</span>
+                <hr>
+            </div>
+            <!-- Sección formulario -->
+            <form class="login__form" action="" method="">
+                <div class="login__form-inputs-alter">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="login__form-inputs-alter">
+                    <label for="userName">Nombre de Usuario</label>
+                    <input type="text" id="userName" name="userName">
+                </div>
+                <div class="login__form-inputs">
+                    <label for="email">Correo</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="login__form-inputs">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="6+ Caracteres">
+                </div>
+                <div class="login__form-checkbox">
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label for="">Acepta nuestros Términos de servicio, Política de privacidad y nuestra configuración de notificación predeterminada.</label>
+                </div>
+                <button class="login__form-submit">Crear Cuenta</button>
+            </form>
+       </div> 
+    </body>
+</html>

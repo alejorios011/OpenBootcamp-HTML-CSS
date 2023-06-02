@@ -1,0 +1,10 @@
+/* 4. Editamos la clase contenedora del Flex, agregando display:flex y wrap por si cambia el ancho del viewport */
+.flex__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Le damos un ancho de 300 pixeles a las imágenes */
+.flex__img {
+    width: 300px;
+}
